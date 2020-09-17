@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+html,body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.font-weight300 {
+  font-weight: 300;
+}
+
+.font-weight400 {
+  font-weight: 400;
+}
+
+.font-weight500 {
+  font-weight: 500;
+}
+
+.font-weight600 {
+  font-weight: 600;
+}
+
+.font-weight600-italic {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-weight800 {
+  font-weight: 800;
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+.text-color-black {
+  color: #000;
+}
+
+.text-color-grey {
+  color: #ccc;
+}
+
+.font-size-1d4rem {
+  font-size: 1.4rem;
+}
+
+.font-size-1d2rem {
+  font-size: 1.2em;
+}

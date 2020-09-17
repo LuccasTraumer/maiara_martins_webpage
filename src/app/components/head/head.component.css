@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  place-content: space-between;
+  padding: 10vh;
+
+}
+
+.rigth-side label {
+  font-size: 1rem;
+  margin-top: 1.8vh;
+}
+
+.left-side {
+  float: right;
+  color: black;
+}
+
+.container-fluid a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container-fluid li a:hover {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+}
