@@ -2,15 +2,10 @@
   display: flex;
   place-content: space-between;
   padding: 10vh;
-
-}
-
-.rigth-side label {
-  font-size: 1rem;
-  margin-top: 1.8vh;
 }
 
 .left-side {
+  padding-top: 3.5vh;
   float: right;
   color: black;
 }
@@ -18,9 +13,34 @@
 .container-fluid a {
   text-decoration: none;
   color: #000;
+  letter-spacing: 2;
+}
+
+
+.left-side li .active {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+  margin-right: 1vh;
 }
 
 .container-fluid li a:hover {
   border-bottom: 1px solid #000;
   padding-bottom: 1px;
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    display: grid;
+    padding: 3vh;
+  }
+  .left-side {
+    padding-top: 0.5vh;
+    padding-left: 1vh;
+    transition: transform .3s ease 0s;
+  }
+
+  .rigth-side label {
+    padding-left: 3vh;
+    margin-bottom: 0;
+  }
 }

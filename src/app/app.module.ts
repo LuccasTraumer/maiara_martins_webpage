@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeadComponent } from './components/head/head.component';
+import { FeedComponent } from './components/feed/feed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeadComponent
+    HeadComponent,
+    FeedComponent
   ],
   imports: [
     BrowserModule,

@@ -46,6 +46,14 @@ html,body {
   font-size: 1.4rem;
 }
 
-.font-size-1d2rem {
-  font-size: 1.2em;
+.font-size-1rem {
+  font-size: 1.1em;
+}
+
+.letter-spacing1 {
+  letter-spacing: 1px;
+}
+
+.letter-spacing2 {
+  letter-spacing: 2px;
 }
