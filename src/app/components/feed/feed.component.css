@@ -1,7 +1,32 @@
+.container {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .img-fluid {
-    max-width: 105%;
+    max-width: 160%;
+    padding-bottom: 0%;
 }
 
 .col-lg-4 {
     max-width: 110%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+.col-lg-4 {
+    padding-left: 15%;
+}
+
+label {
+    margin-bottom: 0;
+    padding-left: 5%;
 }
