@@ -21,23 +21,23 @@ html,body {
   font-weight: 600;
 }
 
-.font-weight600-italic {
-  font-weight: 600;
-  font-style: italic;
-}
-
-.font-weight900 {
-  font-weight: 900;
+.font-weight700 {
+  font-weight: 700;
 }
 
 .font-weight800 {
   font-weight: 800;
 }
 
-.font-weight700-italic {
-  font-weight: 700;
+.font-weight900 {
+  font-weight: 900;
+}
+
+.font-style-italic {
   font-style: italic;
 }
+
+
 
 .text-color-white {
   color: #fff;
@@ -51,12 +51,12 @@ html,body {
   color: #989494;
 }
 
-.font-size-1d4rem {
-  font-size: 1.4rem;
-}
-
 .font-size-1rem {
   font-size: 1.1em;
+}
+
+.font-size-1d4rem {
+  font-size: 1.4rem;
 }
 
 .font-size-2rem {
@@ -73,4 +73,8 @@ html,body {
 
 .font-family-Merriweather {
   font-family: 'Merriweather', serif;
+}
+
+.font-family-Montserrat {
+  font-family: 'Montserrat', serif;
 }
