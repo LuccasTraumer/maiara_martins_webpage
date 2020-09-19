@@ -1,7 +1,7 @@
 .header {
   display: flex;
   place-content: space-between;
-  padding: 10vh;
+  padding: 5vh;
 }
 
 .left-side {
