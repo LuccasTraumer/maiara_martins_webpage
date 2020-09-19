@@ -10,6 +10,11 @@
   color: black;
 }
 
+.container-fluid {
+  background-color: #fff;
+  margin-bottom: 5%;
+}
+
 .container-fluid a {
   text-decoration: none;
   color: #000;
