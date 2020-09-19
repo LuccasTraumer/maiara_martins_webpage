@@ -1,0 +1,20 @@
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    height: 8vh;
+    display: block;
+    overflow: hidden;
+}
+
+.copy {
+    text-align: center;
+}
+
+label .copy {
+    padding-top: 1%;
+}
+
+.created {
+    float: right;
+}
