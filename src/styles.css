@@ -30,6 +30,11 @@ html,body {
   font-weight: 800;
 }
 
+.font-weight700-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
 .text-color-white {
   color: #fff;
 }
