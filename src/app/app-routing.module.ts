@@ -1,8 +1,29 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AppComponent } from './app.component';
+import { DataClientComponent } from './components/data-client/data-client.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [ 
+  {
+  path: '',
+  component: AppComponent,
+  pathMatch: 'full'
+  },
+  {
+    path: 'home',
+    component: AppComponent
+  },
+  {
+    path: 'info',
+    component: DataClientComponent
+  },
+  {
+    path: '**',
+    component: NotFoundComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
