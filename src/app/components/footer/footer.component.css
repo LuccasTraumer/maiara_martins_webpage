@@ -11,8 +11,8 @@ footer {
     text-align: center;
 }
 
-label .copy {
-    padding-top: 1%;
+.copy label {
+    padding-top: 0.7%;
 }
 
 .created {

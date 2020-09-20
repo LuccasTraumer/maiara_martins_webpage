@@ -3,6 +3,7 @@
   place-content: space-between;
   padding: 5vh;
   text-transform: uppercase;
+  transition: 0.2s; 
 }
 
 .left-side {
@@ -11,8 +12,20 @@
   color: black;
 }
 
+.rigth-side {
+  padding-top: 3vw;
+  padding-left: 5vw;
+}
+
+.rigth-side a {
+  display: table-caption;
+  line-height: 100%;
+}
+
 .container-fluid {
   background-color: #fff;
+  margin: 0;
+  padding: 0;
   margin-bottom: 5%;
 
 }
@@ -24,6 +37,7 @@
   padding-right: 0.5vw;
   padding-left: 0.5vw;
   margin-right: 1vh;
+  text-align: center;
 }
 
 
@@ -42,7 +56,13 @@
   .header {
     display: grid;
     padding: 3vh;
+    font-size: 1rem;
   }
+
+  .container-fluid {
+    height: 25vh;
+  }
+
   .left-side {
     padding-top: 0.5vh;
     padding-left: 1vh;
