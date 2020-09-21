@@ -40,5 +40,13 @@ a {
         float: left;
         text-align: center;
         width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .created {
+        text-align: center;
+        padding-left: 30vw;
     }
 }
