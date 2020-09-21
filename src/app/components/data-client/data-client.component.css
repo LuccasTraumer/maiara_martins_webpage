@@ -1,0 +1,50 @@
+.container-fluid {
+    margin: 0;
+    padding: 4%;
+}
+
+.img {
+    size: 20vh;
+    float: left;
+    display: contents;
+    padding: 4%;
+}
+
+img {
+    height: 70vh;
+    margin-top: 15%;
+    padding-left: 4%;
+    margin-bottom: 6%;
+}
+.data {
+    display: flex;
+}
+
+.bio {
+    float: left;
+    padding-right: 5%;
+    flex-basis: 50%;
+}
+
+.infos {
+    padding-left: 15%;
+}
+
+@media only screen and (max-width: 450px) {
+    img {
+        margin-top: 40%;
+        padding-left: 0;
+    }
+    .bio {
+        float: left;
+        padding-right: 5%;
+        flex-basis: 40%;
+    }
+    .data {
+        display: inline-block;
+    }
+    .infos {
+        padding-left: 0%;
+        padding-top: 5%;
+    }
+}

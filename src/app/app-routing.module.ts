@@ -1,3 +1,4 @@
+import { ApresentationComponentComponent } from './components/apresentation-component/apresentation-component.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -7,13 +8,13 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [ 
   {
-  path: '',
-  component: AppComponent,
-  pathMatch: 'full'
+    path: '',
+    component: ApresentationComponentComponent,
+    pathMatch: 'full',
   },
   {
     path: 'home',
-    component: AppComponent
+    component: ApresentationComponentComponent
   },
   {
     path: 'info',
@@ -22,7 +23,8 @@ const routes: Routes = [
   {
     path: '**',
     component: NotFoundComponent
-  }
+  },
+
 ];
 
 @NgModule({

@@ -7,6 +7,11 @@ footer {
     overflow: hidden;
 }
 
+.container, .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
 .copy {
     text-align: center;
 }
@@ -16,5 +21,18 @@ footer {
 }
 
 .created {
-    float: right;
+    padding-left: 85%;
+}
+
+@media only screen and (max-width: 450px) {
+    footer {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .created {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
 }
