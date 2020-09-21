@@ -18,7 +18,7 @@ export class HeadComponent implements OnInit {
         document.getElementById('title').style.fontSize = '1.4rem';
         document.getElementById('container-fluid').style.height = '16vh';
       } else {
-        document.getElementById('header').style.fontSize = '1.4rem';
+        document.getElementById('header').style.fontSize = '1.3rem';
         document.getElementById('title').style.fontSize = '2rem';
       }
     }

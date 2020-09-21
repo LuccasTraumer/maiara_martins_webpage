@@ -5,11 +5,17 @@ footer {
     height: 8vh;
     display: block;
     overflow: hidden;
+
 }
 
 .container, .container-fluid {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .copy {
