@@ -1,0 +1,19 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    padding-bottom: 0%;
+}
+
+.col-lg-4 {
+    padding-left: 0%;
+    max-width: 100%;
+}
+
+label {
+    margin-bottom: 0;
+    padding-left: 5%;
+}

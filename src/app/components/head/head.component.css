@@ -1,26 +1,76 @@
 .header {
   display: flex;
   place-content: space-between;
-  padding: 10vh;
-
-}
-
-.rigth-side label {
-  font-size: 1rem;
-  margin-top: 1.8vh;
+  padding: 5vh;
+  text-transform: uppercase;
+  transition: 0.2s; 
 }
 
 .left-side {
+  padding-top: 3.5vh;
   float: right;
   color: black;
+}
+
+.rigth-side {
+  padding-top: 3vw;
+  padding-left: 5vw;
+}
+
+.rigth-side a {
+  display: table-caption;
+  line-height: 100%;
+}
+
+.container-fluid {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5%;
+
 }
 
 .container-fluid a {
   text-decoration: none;
   color: #000;
+  letter-spacing: 0.1rem;
+  padding-right: 0.5vw;
+  padding-left: 0.5vw;
+  margin-right: 1vh;
+  text-align: center;
+}
+
+
+.left-side li .active {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+  margin-right: 1vh;
 }
 
 .container-fluid li a:hover {
   border-bottom: 1px solid #000;
   padding-bottom: 1px;
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    display: grid;
+    padding: 3vh;
+    font-size: 1rem;
+  }
+
+  .container-fluid {
+    height: 25vh;
+  }
+
+  .left-side {
+    padding-top: 0.5vh;
+    padding-left: 1vh;
+    transition: transform .3s ease 0s;
+  }
+
+  .rigth-side label {
+    padding-left: 3vh;
+    margin-bottom: 0;
+  }
 }

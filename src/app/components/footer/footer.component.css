@@ -1,0 +1,52 @@
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    height: 8vh;
+    display: block;
+    overflow: hidden;
+
+}
+
+.container, .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copy {
+    text-align: center;
+}
+
+.copy label {
+    padding-top: 0.7%;
+}
+
+.created {
+    padding-left: 85%;
+}
+
+@media only screen and (max-width: 450px) {
+    footer {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .created {
+        float: left;
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .created {
+        text-align: center;
+        padding-left: 30vw;
+    }
+}
