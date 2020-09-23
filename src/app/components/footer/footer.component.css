@@ -9,8 +9,8 @@ footer {
 }
 
 .container, .container-fluid {
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 }
 
 .created {
-    padding-left: 85%;
+    padding-left: 80%;
 }
 
 @media only screen and (max-width: 450px) {
