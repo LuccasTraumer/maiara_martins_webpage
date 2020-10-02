@@ -8,9 +8,9 @@ In this page a shared the pictures of my frined Maiara Martins and she give the 
 The host of this project is github page, i just do deploy in a branch and works
 
 # Web page in Desktop
-![Desktop Feed|width=36px|height=36px](https://raw.githubusercontent.com/LuccasTraumer/mmartins/master/imgs/desktop-feed.jpg)
-![Desktop Info|width=36px|height=36px](https://raw.githubusercontent.com/LuccasTraumer/mmartins/master/imgs/desktop-info.png)
+<kbd>![Desktop Feed|width=36px|height=36px](https://raw.githubusercontent.com/LuccasTraumer/mmartins/master/imgs/desktop-feed.jpg)</kbd>
+<kbd>![Desktop Info|width=36px|height=36px](https://raw.githubusercontent.com/LuccasTraumer/mmartins/master/imgs/desktop-info.png)</kbd>
 
 # Web page in Mobile
-![Mobile Feed|width=36px|height=36px](https://raw.githubusercontent.com/LuccasTraumer/mmartins/master/imgs/mobile-feed.png)
-![Mobile Info|width=36px|height=36px](https://raw.githubusercontent.com/LuccasTraumer/mmartins/master/imgs/mobile-info.png)
+<kbd>![Mobile Feed|width=36px|height=36px](https://raw.githubusercontent.com/LuccasTraumer/mmartins/master/imgs/mobile-feed.png)</kbd>
+<kbd>![Mobile Info|width=36px|height=36px](https://raw.githubusercontent.com/LuccasTraumer/mmartins/master/imgs/mobile-info.png)</kbd>
