@@ -1,4 +1,5 @@
-# MaiaraWebSite
+![GitHub](https://img.shields.io/github/license/luccastraumer/mmartins)
+# Maiara WebPage
 
 This project was made with Angular 8 and Bootstrap 4 to tranning my skills in frontend, learn more about CSS, HTML and responsive.
 
